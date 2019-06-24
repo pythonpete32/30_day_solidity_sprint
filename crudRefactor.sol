@@ -9,7 +9,7 @@ contract CrudRefactor {
     }
     
     User[] public Users;
-    uint public nextId;
+    uint public nextId = 1;
     
     function createUser(string memory _name) public {
         Users.push(User(nextId, _name));
@@ -38,6 +38,7 @@ contract CrudRefactor {
             if(Users[i].id == _id){
                 return i;
             }
-        }        
+        }
+        revert("error, user dose not exist!");
     }
 }
