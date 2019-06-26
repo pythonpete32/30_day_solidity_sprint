@@ -28,7 +28,7 @@ contract Deed {
         
         uint elegable_payouts = (now - earliest / INTERVAL);
         uint due_payouts = elegable_payouts - paid_payouts;
-        beneficiary.transfer(due_payouts);
+        beneficiary.transfer(due_payouts * ammount);
         paid_payouts ++;
     }
 }
