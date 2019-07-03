@@ -7,7 +7,7 @@ A.
     2. courum
     3. time limit
 B. 
-    1. admin will aprove a list of voters
+    1. admin will aprove a list of voters(Choices[] memory result)
     2. voters will vote for the ballot
     3. admin will excute function to reveal the result
 */
@@ -32,6 +32,7 @@ contract Voting {
     address admin;
     mapping (address => bool) public voters;
     mapping (uint => Ballot) public ballots;
+    mapping (address => mapping (uint => bool)) public hasVoted;
     
     constructor () public {
         admin = msg.sender;
@@ -58,7 +59,23 @@ contract Voting {
             nextChoiceId ++;
         }
         nextBallotId++;
+    }
+    
+    /*
+    
+    */
+    function vote(uint _ballotId, uint _choiceId) external {
+        require(voters[msg.sender] == true,'You are not an approved voter');
+        require(hasVoted[msg.sender][_ballotId] == false,"You can only vote once");
+        require(now < ballots[_ballotId].end,"The time limit has elapsed on this ballot");
         
+        hasVoted[msg.sender][_ballotId] = true;
+        ballots[_ballotId].choices[_choiceId].votes ++;
+    }
+    
+    function showResults(uint _ballotId) view external returns (Choices[] memory result) {
+        require(now >= ballots[_ballotId].end, "cannot see result until the ballot has closed");
+        return ballots[_ballotId].choices;
     }
     
     modifier isAdmin(){
