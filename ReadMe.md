@@ -4,17 +4,13 @@
 
 for one month I'm doing a crash course in solidity smart-contract development. The areas i will be focusing on are
 
-### Solidity
+Solidity: of course solidity is the main area ill be focusing on. syntax, data structures and common design patterns
 
-of course solidity is the main area ill be focusing on. syntax, data structures and common design patterns
+Truffle: for managing build, testing, and deployment
 
-### Truffle
+Web3 JS: for interacting with web 3 in applications
 
-truffle is the most widely used framework for managing build, testing, and deployment.
-
-### Web3 JS
-
-this is the main interface for interacting with web 3 in applications.
+By the end of the sprint, I should be comfortable with the tools outlines above. I am also keeping a Log of my progress with some general notes [here](./notes).
 
 ## Motivation
 
