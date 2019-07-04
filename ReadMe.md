@@ -10,7 +10,7 @@ Truffle: for managing build, testing, and deployment
 
 Web3 JS: for interacting with web 3 in applications
 
-By the end of the sprint, I should be comfortable with the tools outlines above. I am also keeping a Log of my progress with some general notes [here](/notes).
+By the end of the sprint, I should be comfortable with the tools outlines above. I am also keeping a Log of my progress with some general notes [here](/notes.md).
 
 ## Motivation
 
