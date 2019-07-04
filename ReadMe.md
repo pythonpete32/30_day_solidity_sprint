@@ -10,7 +10,7 @@ Truffle: for managing build, testing, and deployment
 
 Web3 JS: for interacting with web 3 in applications
 
-By the end of the sprint, I should be comfortable with the tools outlines above. I am also keeping a Log of my progress with some general notes [here](./notes).
+By the end of the sprint, I should be comfortable with the tools outlines above. I am also keeping a Log of my progress with some general notes [here](/notes).
 
 ## Motivation
 
@@ -49,7 +49,7 @@ I want to contribute more to Aragon and the other communities I'm a part of, to 
   - [x] String manipulation
   - [x] Multisig
   - [x] Voting
-  - [] The DAO
+  - [x] The DAO
   - [] Loan State Machine
   - [] Event organisation
   - [] FOMO 3D
