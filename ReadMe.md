@@ -31,5 +31,47 @@ I want to contribute more to Aragon and the other communities I'm a part of, to 
 
 - I've signed up to [Eat the Blocks](https://eattheblocks-pro.teachable.com/) and will be doing 2 courses there simultaneously. This will be my primary resource
 - i will be working trough various Ebooks primarily [building games with ethereum smart contracts]()
-- for the Aragon stuff, ill be using the [dev portal(hack.Aragon.org) as well as rocketchat
+- for the Aragon stuff, ill be using the [dev portal](hack.Aragon.org) as well as rocketchat
 - and of course the solidity documentation.
+
+## Progress
+
+- [x] eattheblocks contracts 30 part1
+
+  - [x] hello world
+  - [x] Simple Storage
+  - [x] Advanced Storage
+  - [x] CRUD
+  - [x] contract wallet
+  - [x] Split payments
+  - [x] Deed
+  - [x] Deed + multy payout
+
+- [] eattheblocks contracts 30 part2
+
+  - [x] Escrow
+  - [x] String manipulation
+  - [x] Multisig
+  - [x] Voting
+  - [] The DAO
+  - [] Loan State Machine
+  - [] Event organisation
+  - [] FOMO 3D
+  - [] RPS
+
+- [] eattheblocks contracts 30 part3
+
+  - [] ERC20
+  - [] ICO
+  - [] ERC721
+  - [] Crypto Kitties
+  - [] Crypto Twitter
+  - [] Crypto Ebay
+  - [] DEX Arbatrage and Oracle pattern
+  - [] Basic Assembaly
+
+- [] eattheblocks testing: intro
+
+- [] eattheblocks testing: testing frameworks (Truffle dependencies)
+
+- [] eattheblocks testing: testing framework for smart contracts
