@@ -36,8 +36,8 @@ contract DAO {
     uint public quorum;
     address public owner;
     
-    constructor (uint _time,uint _proposalTime, uint _quorum) public {
-        require(_quorum > 0 && _quorum <= 1);
+    constructor (uint _time,uint _proposalTime, uint _quorum) public payable {
+        require(_quorum > 1 && _quorum <= 100);
         contributionEnd = now + _time;
         owner = msg.sender;
         nextProposalId = 0;
@@ -91,7 +91,7 @@ contract DAO {
     function executeProposal(uint _id) external {
         require(now > proposals[_id].end, "cannot execute proposal before end time");
         require(proposals[_id].executed == false, "proposal has already been executed");
-        require(proposals[_id].votes >= (quorum * totalShares), "Quorum not met");
+        require(proposals[_id].votes >= (quorum * totalShares), "Quorum not met"); // fix this, quorum is nolonger 0-1
         require(avalableFunds >= proposals[_id].ammount, "not enough funds");
         
         proposals[_id].executed == true;
