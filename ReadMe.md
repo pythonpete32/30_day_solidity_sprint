@@ -50,7 +50,7 @@ I want to contribute more to Aragon and the other communities I'm a part of, to 
   - [x] Multisig
   - [x] Voting
   - [x] The DAO
-  - [] Loan State Machine
+  - [x] Loan State Machine
   - [] Event organisation
   - [] FOMO 3D
   - [] RPS
