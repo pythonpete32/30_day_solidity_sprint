@@ -34,14 +34,14 @@ async function transferTokensToICO(owner) {
 
 async function displaySummary(owner){
   const tokenInstance = (await Token.deployed());
-  console.log(`=============================================
+  console.log(`    ==================================================
     Deployed Contracts:
     Tokens: ${Token.address}
     ICO : ${ICO.address}
-    =============================================
+    ==================================================
     Balances:
     ICO => ${await tokenInstance.balanceOf(ICO.address)} tokens
-    Owner => ${await tokenInstance.balanceOf(owner.address)} tokens
-    =============================================
+    Owner => ${await tokenInstance.balanceOf(owner)} tokens
+    ==================================================
   `)
 }
