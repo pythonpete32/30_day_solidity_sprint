@@ -51,7 +51,7 @@ I want to contribute more to Aragon and the other communities I'm a part of, to 
   - [x] Voting
   - [x] The DAO
   - [x] Loan State Machine
-  - [] Event organisation
+  - [x] Event organisation
   - [] FOMO 3D
   - [] RPS
 
