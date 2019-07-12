@@ -57,8 +57,8 @@ I want to contribute more to Aragon and the other communities I'm a part of, to 
 
 - [] eattheblocks contracts 30 part3
 
-  - [] ERC20
-  - [] ICO
+  - [x] ERC20
+  - [x] ICO
   - [] ERC721
   - [] Crypto Kitties
   - [] Crypto Twitter
