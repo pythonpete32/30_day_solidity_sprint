@@ -38,8 +38,15 @@ Today was the last day for AGP submissions, so I was focused on reviewing those 
 The long and short of it is, I've spent most of my afternoon trying to debug one of the migration files. and even though I did manage to get a lot of it fixed. I'm stuck because the error I'm getting is so unhelpful. it's referring to some library code I'm not even using. tonight I'm going to watch more of these migration vids and try again tomorrow but I'm not going to spend too much time on this if I can't fix it. really I need to just take my time and get there when I get there but I want to be deploying some Aragon apps NOW!!! lol
 
 ### 12/07/19
-it is amazing what some time away from a problem can do! Last night I had a quick look at the truffle documentation (which is very well written btw) and it kinda made sense but it was 2 am and I was tired. Anyway this morning I looked at the migration and it just all clicked. I fully understood what was going on and why. Then when I got to the offending line of code, the error stuck out like a saw thumb!!! 
 
-After that my plan was to do something ambitious (ambitious in the time I had at the desk anyway) like deploy it to the Aragon devchain and create DAO with an agent, then use it to buy some tokens. But instead I an idea and a creative burst of energy. Aragon Futures Contracts. 
+it is amazing what some time away from a problem can do! Last night I had a quick look at the truffle documentation (which is very well written btw) and it kinda made sense but it was 2 am and I was tired. Anyway this morning I looked at the migration and it just all clicked. I fully understood what was going on and why. Then when I got to the offending line of code, the error stuck out like a saw thumb!!!
+
+After that my plan was to do something ambitious (ambitious in the time I had at the desk anyway) like deploy it to the Aragon devchain and create DAO with an agent, then use it to buy some tokens. But instead I an idea and a creative burst of energy. Aragon Futures Contracts.
 
 I know I'm reaching way beyond my capability right now but I'm doing it anyway 😝. So basically I haven't done any coding today and this week I have taken quite a big detour from the plan but I think it has been successful. Today I want to finish the draft spec so all my studies can focus on making this project happen
+
+### 15/07/19
+
+over the weekend i wrote out the spec for the futures contract. While are a few patterns i need before it becomes a reality, it is very doable. I am goin to be focusing on this as my main project from now on. I will continue with sm30 in the evenings focus on the concepts and patterns I need for the main futures project.
+
+the first pattern i need to grok is working with deployed tokens. The futures exchange uses ANT and DAI, i need to import the token address for each in the constructor, and then i need to be able to manipulate the balances of the msg.senders to the exchange functions. i also need to start with the testing course. I dont think I will get most from them at the moment as im at a stage with solidity where i can findout the stuff i need to know with google
