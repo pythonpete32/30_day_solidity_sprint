@@ -52,7 +52,7 @@ I want to contribute more to Aragon and the other communities I'm a part of, to 
   - [x] The DAO
   - [x] Loan State Machine
   - [x] Event organisation
-  - [] FOMO 3D
+  - [x] FOMO 3D
   - [] RPS
 
 - [] eattheblocks contracts 30 part3

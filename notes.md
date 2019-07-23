@@ -50,3 +50,9 @@ I know I'm reaching way beyond my capability right now but I'm doing it anyway ð
 over the weekend i wrote out the spec for the futures contract. While are a few patterns i need before it becomes a reality, it is very doable. I am goin to be focusing on this as my main project from now on. I will continue with sm30 in the evenings focus on the concepts and patterns I need for the main futures project.
 
 the first pattern i need to grok is working with deployed tokens. The futures exchange uses ANT and DAI, i need to import the token address for each in the constructor, and then i need to be able to manipulate the balances of the msg.senders to the exchange functions. i also need to start with the testing course. I dont think I will get most from them at the moment as im at a stage with solidity where i can findout the stuff i need to know with google
+
+### 23/07/19
+
+Since last week, I have been working full time on the futures contract. I scrapped the first iteration and started it again due to the complexity and due to the fact it didnt work at all. I've nearly finished the second iteration and changed how it works slightly, im hoping to have it ready for testing on rinkeby by tomorrow evening. Today im going to finish FOMO3D from sm30, ill also look to finish RPS by the end of the week.
+
+im going to shift gears to the testing course before i start on the sm30 advanced projects primarily because ill be focusing on the futures contract. This is better use of the time i have left as its more complex than the other contracts and its serves the same purpose but being my own project, gives me more scope to improve my skills and build my portfolio.
